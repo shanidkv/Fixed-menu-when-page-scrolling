@@ -1,0 +1,47 @@
+/* --------------------------------------------- 
+
+* Filename:     style.css
+* Version:      1.0.0 (2015-01-16)
+* Website:      http://www.shanidkv.com
+* Description:  System CSS
+* Author:       Shanid KV
+
+-----------------------------------------------*/
+
+.fixed-nav{ 
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999; 
+}
+
+.fixed-nav .navbar-default{ 
+	background-color: rgba(67, 154, 226, 0.89);
+}
+
+/*Optional styles, Added for demo*/
+
+.content-wrap{
+	min-height: 1000px; /*Added to get browse scroll- demo*/
+}
+
+.navbar-default{
+	background-color: rgb(67, 154, 226);
+	border-color: rgb(46, 127, 194);
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.topmargin{
+	margin-top: 83px;
+}
+
+footer{
+	background: rgb(67, 154, 226);
+	padding: 10px 0px;
+	color: #fff;
+}
